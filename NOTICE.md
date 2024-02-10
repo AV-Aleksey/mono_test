@@ -1,0 +1,3 @@
+- Типы лучше проверять в IDE а не при сборке, лучше добавлять transpileOnly: true в ts-loader
+- Можно заводить EVN в DefinePlugin и тем самым делать tree shaking для dev и prod кусков проекта 
+- TS loader умеет работать с JSX
